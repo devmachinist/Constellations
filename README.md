@@ -20,7 +20,7 @@ The **Constellation** class offers a highly customizable system to manage distri
 To use **Constellation**, add the NuGet package to your project:
 
 ```bash
-dotnet add package Devmachinist.Constellations
+dotnet add package Constellations
 ```
 
 ---

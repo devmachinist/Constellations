@@ -5,8 +5,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Constellations</PackageId>
-    <Version>8.0.0-rc.1-alpha</Version>
+    <Version>8.0.0-rc.3-alpha</Version>
     <Authors>Matthew Teague</Authors>
+    <Description>Client/Server messaging</Description>
+    <PackageTags>Devmachinist, Vibe, Constellations, Messaging</PackageTags>
+    <RepositoryUrl>https://github.com/devmachinist/Constellations</RepositoryUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
