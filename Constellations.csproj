@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackageId>Constellations</PackageId>
-    <Version>8.0.0-rc.3-alpha</Version>
+    <Version>8.0.0-rc.4-alpha</Version>
     <Authors>Matthew Teague</Authors>
     <Description>Client/Server messaging</Description>
     <PackageTags>Devmachinist, Vibe, Constellations, Messaging</PackageTags>
