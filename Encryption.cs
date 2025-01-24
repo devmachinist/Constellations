@@ -4,7 +4,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.Json;
 
-namespace Devmachinist.Constellations
+namespace Constellations
 {
     public partial class Constellation
     {

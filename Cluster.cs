@@ -1,5 +1,5 @@
 ﻿using System.Diagnostics;
-namespace Devmachinist.Constellations
+namespace Constellations
 {
     /// <summary>
     /// Cluster of Processes that can be run from inside a container or on a system

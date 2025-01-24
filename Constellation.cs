@@ -18,7 +18,7 @@ using System.ComponentModel.Design;
 using System.Net.WebSockets;
 using System.Buffers.Text;
 
-namespace Devmachinist.Constellations;
+namespace Constellations;
 /// <summary>
 /// A named tcp server/client that can use encrypted communication to send and recieve messages.
 /// Constellations also handle websockets. The JavaScript client library can be found on npm @devmachinist/constellations.

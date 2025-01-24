@@ -1,4 +1,4 @@
-﻿namespace Devmachinist.Constellations
+﻿namespace Constellations
 {
     /// <summary>
     /// Handles all outgoing messages including those routed through the server.

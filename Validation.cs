@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Devmachinist.Constellations
+namespace Constellations
 {
     public partial class Constellation
     {

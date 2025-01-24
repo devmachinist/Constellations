@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
-namespace Devmachinist.Constellations
+namespace Constellations
 {
     public partial class Constellation
     {

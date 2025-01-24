@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 using System.Security.Cryptography.X509Certificates;
 
-namespace Devmachinist.Constellations.AspNetCore
+namespace Constellations.AspNetCore
 {
     public static class Extensions
     {
