@@ -8,9 +8,9 @@ namespace Devmachinist.Constellations.AspNetCore
         /// <summary>
         /// Configure dependency injection for a singleton instance of a constellation.
         /// </summary>
-        /// <param name="hostBuilder"></param>
-        /// <param name="configureOptions"></param>
-        /// <returns></returns>
+        /// <param name="services">This IServiceCollection</param>
+        /// <param name="configureOptions">Configure the Constellation for use</param>
+        /// <returns>This IServiceCollection</returns>
         public static IServiceCollection UseConstellation(this IServiceCollection services, Action<Constellation> configureOptions, X509Certificate2? cert = null)
         {
                 // Configure Constellation options
@@ -29,11 +29,11 @@ namespace Devmachinist.Constellations.AspNetCore
             return services;
         }
         /// <summary>
-        /// Configure dependency injection for a scoped instances of constellations. Meant for client usage only.
+        /// Configure dependency injection for scoped instances of constellations. Meant for client usage only.
         /// </summary>
-        /// <param name="hostBuilder"></param>
-        /// <param name="configureOptions"></param>
-        /// <returns></returns>
+        /// <param name="services">This IServiceCollection</param>
+        /// <param name="configureOptions">Configure the scoped Constellation</param>
+        /// <returns>This IServiceCollection</returns>
         public static IServiceCollection UseConstellations(this IServiceCollection services, Action<Constellation> configureOptions, X509Certificate2? cert = null)
         {
                 // Configure Constellation options

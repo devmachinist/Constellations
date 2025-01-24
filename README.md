@@ -39,8 +39,19 @@ var constellation = new Constellation("MyConstellation")
     .ListenOn(null, "127.0.0.1", 8080)
     .AddProcesses(new List<ProcessStartInfo>
     {
-        new ProcessStartInfo("myProcess.exe"),
-        new ProcessStartInfo("anotherProcess.exe")
+		new ProcessStartInfo
+		{
+			FileName = "notepad.exe",
+			Arguments = "",
+			UseShellExecute = true
+		},
+
+		// Add ProcessStartInfo for Calculator
+		new ProcessStartInfo
+		{
+			FileName = "calc.exe",
+			UseShellExecute = true
+		}
     })
     .AllowBroadcasting()
     .Run();
